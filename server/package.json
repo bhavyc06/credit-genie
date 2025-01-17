@@ -6,6 +6,7 @@
   "scripts": {
     "prestart": "npm i",
     "start": "tsx src/server.ts",
+    "start:tsx": "tsx src/server.ts",
 
     "preembed-documents": "npm i",
     "embed-documents": "tsx src/embed-documents.ts"
@@ -22,7 +23,9 @@
     "langchain": "^0.1.36",
     "mongodb": "^6.5.0",
     "pdf-parse": "^1.1.1",
-    "zod": "^3.23.4"
+    "zod": "^3.23.4",
+    "tsx": "^4.7.3"
+
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
