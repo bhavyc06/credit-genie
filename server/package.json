@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "prestart": "npm i",
-    "start": "nodemon --config nodemon.json",
-    "start:tsx": "tsx src/server.ts",
+    "start": "tsx src/server.ts",
 
     "preembed-documents": "npm i",
     "embed-documents": "tsx src/embed-documents.ts"
